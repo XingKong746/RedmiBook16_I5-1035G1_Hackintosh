@@ -78,13 +78,13 @@ sudo killall sharingd
 ```
 
 # 感谢
-- [Acidanthera](https://github.com/acidanthera) 团队，以及其维护的 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，和 [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) 等众多内核扩展
-- [OpenIntelWireless](https://github.com/OpenIntelWireless) 团队，以及其维护的 [itlwm](https://github.com/OpenIntelWireless/itlwm)，[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
-- [RehabMan](https://github.com/RehabMan) 的 [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)
-- [daliansky](https://github.com/daliansky) 更新的 [OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) 和 [黑果小兵的部落阁](https://blog.daliansky.net/) 提供的教程和镜像下载
-- [Xjn´s Blog](https://blog.xjn819.com)
+- [Acidanthera](https://github.com/acidanthera) 团队
+- [OpenIntelWireless](https://github.com/OpenIntelWireless) 团队
+- [dortania](https://github.com/dortania) 团队
+- [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) 项目
+- [USBToolBox](https://github.com/USBToolBox) 项目
+- [OCLP-Mod](https://github.com/laobamac/OCLP-Mod) 项目
+- ......
 - Apple 的 macOS
 - 以及[我](https://github.com/XingKong746)
-
 
