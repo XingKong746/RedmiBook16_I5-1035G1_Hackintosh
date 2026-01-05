@@ -1,5 +1,5 @@
 # RedmiBook16黑苹果
-支持的笔记本`RedmiBook16`、`RedmiBook14II`
+支持`RedmiBook16`与`RedmiBook14II`
 
 ### 支持安装的macOS 10.15~26
 > 安装macOS需要在BIOS中关闭安全启动
@@ -12,7 +12,7 @@
 - Sequoia
 - Tahoe
 
-> 如果你有此efi现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
+> 如果你有此EFI现有问题解决办法欢迎提[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
 ## 我的配置
 | 硬件 | 详情                                                                                                                                                |
@@ -30,13 +30,13 @@
 | TPM  | TPM 2.0 Device                                                                                                                                      |
 
 ### 一些高级BIOS配置项
-| BIOS配置项                | 位置         | 变量 | 目标                |
-| ----------------------- | ----------- | ----- | --------------- |
-| CFG Lock                    | CpuSetup | 0x43 | 0x0: Disabled |
-| DVMT Pre-Allocated  | SaSetup    | 0xA4 | 0x5: 160M      |
-| DVMT Total Gfx Mem | SaSetup    | 0xA5 | 0x3: MAX       |
-| VT-d                           | SaSetup    | 0xA7 | 0x0: Disabled |
-| State After G3             | PchSetup | 0x1B  | 0x0: S0 State  |
+| BIOS配置项           | 位置     | 变量 | 目标          |
+| ------------------- | -------- | ---- | ------------- |
+| CFG Lock            | CpuSetup | 0x43 | 0x0: Disabled |
+| DVMT Pre-Allocated  | SaSetup  | 0xA4 | 0x5: 160M     |
+| DVMT Total Gfx Mem | SaSetup   | 0xA5 | 0x3: MAX      |
+| VT-d                | SaSetup  | 0xA7 | 0x0: Disabled |
+| State After G3      | PchSetup | 0x1B | 0x0: S0 State |
 - 推荐更改这些配置，不懂的请忽略，胡乱修改严重可导致BIOS损坏
 - 要恢复原始BIOS配置，直接更新官方BIOS就行了
 
@@ -49,19 +49,18 @@
 - CPU变频
 - 睡眠
 - 屏幕亮度 最高亮度和Win一样并且开机后无需睡眠就是正常的
-- USB 已定制USB驱动两个type-C和USB口均正常 (支持26)
+- USB 已定制USB驱动两个Type-C和USB口均正常 (支持26)
 - 3.5mm 耳机接口
-- type-C 耳机接口
+- Type-C 耳机接口
 - 蓝牙 连接耳机，手机、键鼠<sup>13↓</sup>
 - 3.5mm/Type-C/蓝牙耳机麦克风
 - 触控板
 - 键盘
-- `F1` `F2` `F3` `F9`快捷键
 - 电池电量显示
 
 ## 不正常的
 - HDMI DP
-- 内置麦克风
+- 内置麦克风阵列
 - MX350：不支持
 
 ##
