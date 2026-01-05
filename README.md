@@ -86,5 +86,5 @@ sudo killall sharingd
 - [OCLP-Mod](https://github.com/laobamac/OCLP-Mod) 项目
 - ......
 - Apple 的 macOS
-- 以及[我](https://github.com/XingKong746)
+- 以及[XingKong746](https://github.com/XingKong746)
 
