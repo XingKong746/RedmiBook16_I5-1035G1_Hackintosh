@@ -271,7 +271,7 @@
 					<key>BundlePath</key>
 					<string>Lilu.kext</string>
 					<key>Comment</key>
-					<string>V1.7.1 | Necessary</string>
+					<string>V1.7.2 | Necessary</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -577,7 +577,7 @@
 					<key>BundlePath</key>
 					<string>BlueToolFixup.kext</string>
 					<key>Comment</key>
-					<string>V2.7.1 | Bluetooth</string>
+					<string>V2.7.2 | Bluetooth</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -1308,13 +1308,5 @@
 			<key>Unload</key>
 			<array/>
 		</dict>
-		<key>#Author</key>
-		<string>XingKong746</string>
-		<key>#ProjectUrl</key>
-		<string>https://github.com/XingKong746/RedmiBook16_I5-1035G1_Hackintosh</string>
-		<key>#QQ</key>
-		<string>3301394538</string>
-		<key>#WeiXin</key>
-		<string>17375673810</string>
 	</dict>
 </plist>
