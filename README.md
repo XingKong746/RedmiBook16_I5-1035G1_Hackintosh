@@ -4,7 +4,13 @@
 ### 支持安装的macOS 10.15~26
 > 安装macOS需要在BIOS中关闭安全启动
 - Catalina
-  - 没有WiFi尝试执行 ` sudo kextcache -i / ` 与 ` sudo kextload /System/Library/Extensions/IO80211Family.kext ` ，或者Misc->Security->`SecureBootModel`:`Default`
+  - 没有WiFi尝试执行
+    1. ` sudo kextcache -update-volume / `
+    2. ` sudo kextcache -i / `
+    3. 重启电脑
+    4. ` sudo kextload /System/Library/Extensions/IO80211Family.kext `
+    5. 完成后重启
+  - 或者修改EFI配置Misc->Security->`SecureBootModel`:`Default`
 - BigSur
 - Monterey
 - Ventura
